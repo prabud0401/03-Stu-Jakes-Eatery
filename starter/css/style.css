@@ -11,6 +11,7 @@
     background-color: black;
     padding: 20px;
     justify-content: space-around;
+    align-items: center;
 }
 .left .right .center{
     height: 50px;
@@ -28,12 +29,13 @@
     font-size: 18px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 button{
     color: black;
     font-size: 16px;
-    padding: 15px;
-    width: 50%;
+    padding: 16px;
+    width: 100%;
 }
 
 .right button{
@@ -44,25 +46,29 @@ button{
 }
 
 /* Column styles */
-.column{
+.column {
     display: flex;
-    height: 1200px;
+    height: 100%;
     width: 800px;
     flex-direction: column;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
-.meal1 .meal2 .meal3{
+
+.meal1, .meal2, .meal3 {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: flex-end;
     margin-bottom: 20px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .meal1{
     margin-top: 20px;
     background-image: url("../images/steak.png");
+
 
 }
 .meal2{
